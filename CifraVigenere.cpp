@@ -98,6 +98,7 @@ int main(int argc, char *argv[]){
 
     gtk_container_add(GTK_CONTAINER(janela), hbox);
     gtk_window_set_title(GTK_WINDOW(janela), "Cifra de Vigenere");
+    gtk_window_set_default_size(GTK_WINDOW(janela), 800,100);
 	gtk_widget_show_all(janela);
 	gtk_main();
 	return 0;
